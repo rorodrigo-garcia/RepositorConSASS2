@@ -29,12 +29,6 @@
   animation-iteration-count: 3s;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .header h1 {
   font-size: 45px;
   background-image: linear-gradient(white, black);
@@ -58,7 +52,7 @@
   font-size: 18px;
 }
 
-.btn:hover {
+.btn:hover, .btn-primario:hover {
   color: brown;
   background-color: black;
 }
@@ -90,6 +84,25 @@
 .maincon .form-control {
   color: red;
   background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn, .btn-primario {
+  background-color: blue;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.btn-primario {
+  text-decoration: none;
 }
 
 @keyframes rere {

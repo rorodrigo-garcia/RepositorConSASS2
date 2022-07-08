@@ -22,11 +22,7 @@
     animation-duration: 3s;
 animation-iteration-count: 3s;
 }
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .header h1{
     font-size: 45px;
     background-image: linear-gradient(white,black);
@@ -89,7 +85,31 @@ animation-iteration-count: 3s;
        }   
     }
 
+@mixin header ($display , $justify-content , $aling-items) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $aling-items;
+}
 
+.header {
+    @include header(flex, center, center);
+  }
+
+  .btn{
+    background-color: blue;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    
+  }
+
+  .btn-primario{
+    @extend .btn;
+    text-decoration: none;
+    
+  }
 
  
 @keyframes rere {
