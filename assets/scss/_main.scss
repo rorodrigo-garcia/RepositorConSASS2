@@ -1,0 +1,9 @@
+@import "variables";
+
+.mainnos{
+    background-image: map-get($var , background-image );
+    color:map-get($var , color );
+    font-size: map-get($var , font-size );
+    border: map-get($var , border);
+    font-family: Arial, Helvetica, sans-serif;
+}
