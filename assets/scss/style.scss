@@ -8,7 +8,7 @@
 }
 .body{
     background-image: url(https://st3.depositphotos.com/4329009/14808/v/450/depositphotos_148080695-stock-illustration-abstract-creative-concept-vector-comic.jpg);
-    width: 100;
+    width: 100%;
     height: auto;
    
 }
@@ -139,12 +139,19 @@
   }
 
 .footer{
-   display: inline-flex;
-    background-image: linear-gradient(black ,white);
+    display: inline-flex;
+    background-image: linear-gradient(black , white);
     margin: 5px;
+    position:sticky;
    
   
 }
+.footercon{
+    background-image: linear-gradient(black , white);
+    position: absolute;
+    bottom:0px;
+}
+
 
 
 
