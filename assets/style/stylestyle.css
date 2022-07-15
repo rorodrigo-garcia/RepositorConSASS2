@@ -57,17 +57,17 @@
   height: auto;
 }
 
-.card {
+.card, .cardcom {
   background-color: black;
   color: white;
 }
-.card .card-body {
+.card .card-body, .cardcom .card-body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
 }
-.card .card-img-top {
+.card .card-img-top, .cardcom .card-img-top {
   padding: 15px;
   width: 280px;
   height: 280px;
@@ -77,8 +77,14 @@
   font-size: 18px;
 }
 
-.card:hover {
+.card:hover, .cardcom:hover {
   transform: translate(20px, 5px) skewy(10deg);
+}
+
+.cardcom .card-img-top {
+  padding: 15px;
+  width: 250px;
+  height: 300px;
 }
 
 .btn:hover, .btn-primario:hover {
