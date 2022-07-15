@@ -60,6 +60,7 @@
 .card, .cardcom {
   background-color: black;
   color: white;
+  position: relative;
 }
 .card .card-body, .cardcom .card-body {
   display: flex;
@@ -168,6 +169,11 @@
 
 .btn-primario {
   text-decoration: none;
+}
+
+.contenedorbtn {
+  position: relative;
+  top: 25px;
 }
 
 .footer {

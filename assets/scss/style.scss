@@ -44,7 +44,7 @@
 .card{
     background-color: black;
     color: white;
-    
+    position: relative;
     .card-body{
        display: flex;
        flex-direction: column;
@@ -168,6 +168,10 @@
     @extend .btn;
     text-decoration: none;
   }
+.contenedorbtn{
+    position: relative;
+    top: 25px;
+}
 
 .footer{
     display: inline-flex;
