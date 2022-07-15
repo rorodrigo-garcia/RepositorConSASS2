@@ -42,8 +42,9 @@
 }
 
 .card{
-  background-color: black;
+    background-color: black;
     color: white;
+    
     .card-body{
        display: flex;
        flex-direction: column;
@@ -73,22 +74,7 @@
 }
 
 
-.btn:hover{
-    color: brown;
-    background-color: black;
-   
-}
 
-
-.btnfor{
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    font-size: 25px;
-}
-.btnfor:hover{
-    background-image: linear-gradient(white,black);
-}
 .divcontenedor{
     display: flex;
 }
@@ -144,8 +130,39 @@
     border-radius: 5px;
     font-size: 25px;
     padding: 10px;
-    
+    margin: 5px;
+   
   }
+  .btn:hover{
+    color: brown;
+    background-color: black;
+   
+}
+
+
+.btnfor{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.btnfor:hover{
+    background-image: linear-gradient(white,black);
+}
+.btnver{
+    background-color: blue;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+.btnver:hover{
+    color: brown;
+    background-color: black;
+}
 
   .btn-primario{
     @extend .btn;
