@@ -171,11 +171,6 @@
   text-decoration: none;
 }
 
-.contenedorbtn {
-  position: relative;
-  top: 25px;
-}
-
 .footer {
   display: inline-flex;
   background-image: linear-gradient(black, white);
